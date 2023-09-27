@@ -10,7 +10,7 @@ import lombok.*;
 public class Produto {
 
     private String id;
-
+    private String value;
     private String sku;
 
     private String name;
