@@ -27,6 +27,7 @@ dependencies {
     testImplementation 'org.projectlombok:lombok:1.18.28'// para validar csv
     implementation group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '19.3.0.0'
     implementation files('lib/ojdbc11.jar')
+    testImplementation 'junit:junit:4.13.1'
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     implementation 'com.rabbitmq:amqp-client:5.14.0'

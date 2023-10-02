@@ -10,7 +10,7 @@ public class RabbitClient {
     public static void sendMessageForQueue(String virtualHost, String exchange, String routingKey, String payload) {
 
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setHost("rabbitmq-data-store-rabbitmq-ha.data-store.svc.cluster.local.");
+        connectionFactory.setHost("localhost");
         connectionFactory.setPort(5672);
         connectionFactory.setUsername("guest");
         connectionFactory.setPassword("guest");
