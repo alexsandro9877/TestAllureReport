@@ -1,15 +1,10 @@
 package org.example.Test;
 
-import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.put;
 
 
 class MainTest {
@@ -24,10 +19,8 @@ public  static void setUp() throws IOException {
     vaslor = prop.getProperty("test");
 }
 
-@Test
+
     public void testUnit (){
-
-
 
     System.out.println(valor);
 
